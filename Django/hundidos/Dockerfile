@@ -1,4 +1,4 @@
-FROM python:3.8.10
+FROM python:3.8-slim-bullseye
 
 # Instala Chromium y sus dependencias
 RUN apt-get update && apt-get install -y \
